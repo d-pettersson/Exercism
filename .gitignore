@@ -1,2 +1,5 @@
 # Ignore all node module folders
 node_modules/
+
+# Ignore all .DS_Store OSX specific files
+.DS_Store
