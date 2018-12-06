@@ -4,8 +4,11 @@ export default class Word {
   }
 
   count(str) {
-    let splitString = str.toLowerCase().replace(/\n|\t/, ' ');
-    splitString = splitString.replace(/^\s*/, '').replace(/\s*$/, '').split(' ');
+    let splitString = str.toLowerCase()
+                         .replace(/\n|\t/, ' ')
+                         .replace(/^\s*/, '')
+                         .replace(/\s*$/, '')
+                         .split(' ');
     let count = {};
     let filteredCount = {};
     filteredCount = splitString.filter(x => x.length > 0).forEach(function(x) {count[x] = (count[x] | 0) + 1})
