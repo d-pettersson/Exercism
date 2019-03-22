@@ -1,0 +1,4 @@
+/Users/davidp/Exercism/cpp/hamming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/davidp/Exercism/cpp/hamming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/davidp/Exercism/cpp/hamming/cmake-build-debug/CMakeFiles/test_hamming.dir
+/Users/davidp/Exercism/cpp/hamming/cmake-build-debug/CMakeFiles/hamming.dir
